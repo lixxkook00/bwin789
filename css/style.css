@@ -1,0 +1,251 @@
+.bold{
+    font-weight: bold;
+}
+.swal2-popup { font-size: 0.8rem !important; }
+.game-name{
+    white-space: nowrap;
+}
+.game-name span{
+    font-size: 12px !important;
+}
+.register_form_con .register_form{
+    padding: 5%;
+}
+.register_form_con .register_form .register_con{
+    gap: 20px;
+}
+.register_form_con .register_form .register_con .register_btn_wrap{
+    margin-top: 5%;
+}
+.game-modal .transfer-con {
+    padding-top: 0px;
+}
+.game-modal .transfer-con .game-lobby{
+    display: block;
+    padding: 0px;
+}
+.logo{
+    cursor: pointer;
+}
+.logged-head > a, .mob-user, .logged-drop > a{
+    background: unset !important;
+    border: none !important;
+}
+.logged-drop > a:hover{
+    background: #181818 !important;
+}
+.transfer-con .statement-table table tr th, .transfer-con .statement-table table tr td{
+    font-size: 12px;
+}
+.transfer-con .statement-act .statement-input input{
+    font-size: 12px;
+}
+.transfer-con .statement-table table tr:last-child td{
+    border-top: 1px white solid;
+}
+.content-text{
+    padding: 5px 0px;
+}
+.upcoming-con .announce-con{
+    margin-bottom: 3%;
+}
+.game-modal .transfer-con .game-lobby span{
+    font-size: 0.6vw;
+    font-weight: 100;
+}
+.transfer-con .game-lobby .game-con{
+    display: block !important;
+    grid-template-columns:repeat(6, 1fr);
+    gap:0 3%
+}
+.transfer-con .game-lobby .game-con .game{
+    box-shadow: 0px 0px 15px 5px #fce280;
+    width: 180px;
+    border-radius: 15px;
+    margin: 6% 0;
+}
+.transfer-con .game-lobby .game-con .game .game-img img{
+    width: 105%;
+}
+/* Sportsbook TNC CSS */
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+    /*background-color: white;*/
+    color: white;
+}
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    background: #e8bf58;
+    color: black;
+}
+.no_col{
+    width: 5vh;
+    text-align: center;
+}
+.container{
+    padding: 0 5%;
+    grid-template-columns: auto !important;
+}
+.tncButton{
+    margin: 10px 0;
+    text-align: center;
+}
+.button{
+    background: linear-gradient(to bottom, #fffae5, #ffec93, #e8bf58);
+    -webkit-border-radius: 2vmin;
+    -moz-border-radius: 2vmin;
+    border-radius: 2vmin;
+    border: none;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button:hover{
+    background-color: darkgoldenrod !important;
+    cursor: pointer;
+}
+h3{
+    color: white;
+    font-size: 14px;
+}
+.game-modal .transfer-con .game-lobby .game-con{
+    height: 100%;
+}
+.game-modal .transfer-con{
+    width: 50%;
+    border-radius: 1vw;
+}
+
+@media  only screen and (max-width: 980px){
+    .game-name span{
+        font-size: 10px !important;
+    }
+    .tncButton{
+        margin: 0;
+    }
+    .upcoming-con .announce-con .announce-body{
+        margin-bottom: 55px;
+    }
+    .register_form_con .register_form .title{
+        font-size: 4vw;
+    }
+    .register_form_con .register_form{
+        width: 75%;
+        padding: 7% ;
+    }
+    .game-modal .transfer-con .game-lobby span{
+        font-size: 3vw;
+        font-weight: 100;
+    }
+    .game-modal .transfer-con{
+        margin-top: -10%;
+        height: 70%;
+        max-height: fit-content;
+        width: 90%;
+    }
+    .transfer-con .game-lobby .game-con .game{
+        width: 100%;
+    }
+    .transfer-con .game-lobby .game-con{
+        display: block;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 6%;
+    }
+    .transfer-con .game-lobby .game-con .game{
+        box-shadow: 0px 0px 10px 0px #fce280;
+    }
+    .foot {
+        padding: 2% 0 1vw 0;
+        background: #000000;
+        height: 60px;
+    }
+    .transfer-con .statement-table table tr th, .transfer-con .statement-table table tr td{
+        font-size: 2.5vw;
+    }
+    .transfer-con .statement-act .statement-input input{
+        font-size: 3vw;
+    }
+    .upcoming-con .announce-con{
+        margin-bottom: 5%;
+    }
+    .game-modal .transfer-con .game-lobby .game-con{
+        height: 100vw;
+    }
+}
+
+/*Blinking Animation*/
+.blink {
+    color: red;
+    animation: blinker 0.8s step-start infinite;
+}
+
+@keyframes  blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.fifa-timer {
+    z-index: 1;
+    margin-left: 35%;
+    margin-top: 200px;
+    position: absolute;
+}
+.transfer-con .game-lobby .lc-con .lc-bg {
+    border-radius: 20px;
+    opacity: 1;
+    filter: blur(0px);
+}
+.transfer-con .game-lobby {
+    display: block;
+    width: 100%;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 0vw 0;
+    min-height: 0px;
+}
+
+@media (max-width: 550px){
+    .fifa-timer{
+        margin-left: 20px;
+        z-index: 9999;
+        margin-top: 121px;
+    }
+    .lc-girl{
+        display: none;
+    }
+    .transfer-con{
+        padding-bottom: 25vh;
+        min-height:182vh;
+    }
+    .transfer-con .game-lobby {
+        display: block;
+        width: 100%;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding: 3vw 0;
+        min-height: 0px;
+    }
+    .transfer-con .game-lobby .lc-con {
+         height: 159px;
+         margin: 1% 0;
+    }
+    .transfer-con .game-lobby .lc-con .lc-bg {
+        height: 36vw;
+    }
+    .transfer-con .game-lobby span{
+        font-size: 4vw;
+    }
+}
