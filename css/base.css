@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     position: relative;
+    background-color: #000;
 }
 
 .sr-only-focusable:active,.sr-only-focusable:focus {
@@ -72,11 +73,6 @@ a {
 
 input:focus {
     outline: none
-}
-
-html,body {
-    margin: 0;
-    background: #fff
 }
 
 .row {
@@ -1167,15 +1163,16 @@ section {
 }
 
 .head .logo {
-    width: 16%;
-    position: relative
+    /* width: 16%; */
+    position: relative;
+    padding-right: 10px;
 }
 
-.head .logo img {
+.head .logo .text-logo {
     width: 100%
 }
 
-.head .logo img:first-child {
+.head .logo .text-logo:first-child {
     position: relative;
     z-index: 1
 }
@@ -1183,7 +1180,7 @@ section {
 .head .logo .ball-animate {
     width: 20%;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 100%;
     z-index: 0;
     animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
@@ -3881,12 +3878,12 @@ section {
 
 @keyframes slide-in-left {
     0% {
-        transform: translateX(-150px);
+        transform: translate(-150px, -50%);
         opacity: 0
     }
 
     100% {
-        transform: translateX(0);
+        transform: translate(0px, -50%);
         opacity: 1
     }
 }

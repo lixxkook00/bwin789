@@ -127,6 +127,27 @@ h3{
     border-radius: 1vw;
 }
 
+.text-logo {
+    font-size: 38px;
+    font-weight: 900;
+    display: flex;
+}
+
+.gradient-text {
+    font-style: italic;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.gradient-text.gold {
+    background-image: linear-gradient(180deg, #FFEF9F 0%, #C29533 30%, #9D6E13 47%, #9D6E13 56%, #C29533 66%, #FFEF9F 100%);
+}
+
+.gradient-text.silver {
+    background-image: linear-gradient(180deg, #FDFDFD 0%, #C0C0C0 30%, #969696 42%, #969696 54%, #C0C0C0 66%, #FDFDFD 100%);
+}
+
 @media  only screen and (max-width: 980px){
     .game-name span{
         font-size: 10px !important;
@@ -248,4 +269,17 @@ h3{
     .transfer-con .game-lobby span{
         font-size: 4vw;
     }
+
+    .text-logo {
+        font-size: 30px;
+    }
+}
+
+
+.centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
 }
