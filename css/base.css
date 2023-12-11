@@ -2500,7 +2500,8 @@ section {
     width: 100%;
     padding: 0 5%;
     max-width: 1600px;
-    min-height: 55vh
+    min-height: 55vh;
+    margin: auto;
 }
 
 .transfer-con .transfer-head {
